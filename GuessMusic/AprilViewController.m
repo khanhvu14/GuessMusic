@@ -21,22 +21,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    imageViewBG = (UIImageView *)[self.view viewWithTag:500];
-    //imageViewBG.frame = CGRectMake(10, 10, 20, 100);
-    imageViewBG.contentMode = UIViewContentModeCenter;
-    //imageViewBG.center = CGPointMake(self.imageViewBG.bounds.size.width/2, self.imageViewBG.bounds.size.height/2);
-    /* initialize */
-    
-    
-    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(rotate:) userInfo:nil repeats:YES];
-    
+
+    [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(rotate:) userInfo:nil repeats:YES];
 }
      
      
  - (IBAction)rotate:(id)sender{
      
      imageViewBG = (UIImageView *)[self.view viewWithTag:500];
-     imageViewBG.transform = CGAffineTransformRotate(imageViewBG.transform, -50);
+     imageViewBG.transform = CGAffineTransformRotate(imageViewBG.transform, 0.25 * M_PI / 180);
  }
 
 - (void)didReceiveMemoryWarning
