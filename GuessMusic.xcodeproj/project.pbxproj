@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51B4278D181B8A0E0050DA25 /* guessmusic_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B42789181B8A0E0050DA25 /* guessmusic_background.png */; };
+		51B4278E181B8A0E0050DA25 /* guessmusic_button_continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B4278A181B8A0E0050DA25 /* guessmusic_button_continue.png */; };
+		51B4278F181B8A0E0050DA25 /* guessmusic_button_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B4278B181B8A0E0050DA25 /* guessmusic_button_stop.png */; };
+		51B42790181B8A0E0050DA25 /* guessmusic_view_question.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B4278C181B8A0E0050DA25 /* guessmusic_view_question.png */; };
 		DC33264A181B892600C013CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC332649181B892600C013CA /* Foundation.framework */; };
 		DC33264C181B892600C013CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC33264B181B892600C013CA /* CoreGraphics.framework */; };
 		DC33264E181B892600C013CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC33264D181B892600C013CA /* UIKit.framework */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51B42789181B8A0E0050DA25 /* guessmusic_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_background.png; sourceTree = "<group>"; };
+		51B4278A181B8A0E0050DA25 /* guessmusic_button_continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_button_continue.png; sourceTree = "<group>"; };
+		51B4278B181B8A0E0050DA25 /* guessmusic_button_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_button_stop.png; sourceTree = "<group>"; };
+		51B4278C181B8A0E0050DA25 /* guessmusic_view_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_view_question.png; sourceTree = "<group>"; };
 		DC332646181B892600C013CA /* GuessMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC332649181B892600C013CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC33264B181B892600C013CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +87,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51B42787181B89E20050DA25 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				51B42788181B89F70050DA25 /* UIImages */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		51B42788181B89F70050DA25 /* UIImages */ = {
+			isa = PBXGroup;
+			children = (
+				51B42789181B8A0E0050DA25 /* guessmusic_background.png */,
+				51B4278A181B8A0E0050DA25 /* guessmusic_button_continue.png */,
+				51B4278B181B8A0E0050DA25 /* guessmusic_button_stop.png */,
+				51B4278C181B8A0E0050DA25 /* guessmusic_view_question.png */,
+			);
+			name = UIImages;
+			sourceTree = "<group>";
+		};
 		DC33263D181B892600C013CA = {
 			isa = PBXGroup;
 			children = (
+				51B42787181B89E20050DA25 /* Resource */,
 				DC33264F181B892600C013CA /* GuessMusic */,
 				DC33266E181B892700C013CA /* GuessMusicTests */,
 				DC332648181B892600C013CA /* Frameworks */,
@@ -229,9 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B4278E181B8A0E0050DA25 /* guessmusic_button_continue.png in Resources */,
+				51B4278F181B8A0E0050DA25 /* guessmusic_button_stop.png in Resources */,
 				DC332662181B892700C013CA /* Images.xcassets in Resources */,
 				DC332654181B892600C013CA /* InfoPlist.strings in Resources */,
 				DC33265D181B892600C013CA /* Main.storyboard in Resources */,
+				51B42790181B8A0E0050DA25 /* guessmusic_view_question.png in Resources */,
+				51B4278D181B8A0E0050DA25 /* guessmusic_background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +493,7 @@
 				DC33267A181B892700C013CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC33267B181B892700C013CA /* Build configuration list for PBXNativeTarget "GuessMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +502,7 @@
 				DC33267D181B892700C013CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
