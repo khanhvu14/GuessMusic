@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51B4278D181B8A0E0050DA25 /* guessmusic_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B42789181B8A0E0050DA25 /* guessmusic_background.png */; };
-		51B4278E181B8A0E0050DA25 /* guessmusic_button_continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B4278A181B8A0E0050DA25 /* guessmusic_button_continue.png */; };
-		51B4278F181B8A0E0050DA25 /* guessmusic_button_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B4278B181B8A0E0050DA25 /* guessmusic_button_stop.png */; };
-		51B42790181B8A0E0050DA25 /* guessmusic_view_question.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B4278C181B8A0E0050DA25 /* guessmusic_view_question.png */; };
+		51B4279B181B8E720050DA25 /* guessmusic_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B42793181B8E720050DA25 /* guessmusic_background.png */; };
+		51B4279C181B8E720050DA25 /* guessmusic_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B42794181B8E720050DA25 /* guessmusic_background@2x.png */; };
+		51B4279D181B8E720050DA25 /* guessmusic_button_continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B42795181B8E720050DA25 /* guessmusic_button_continue.png */; };
+		51B4279E181B8E720050DA25 /* guessmusic_button_continue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B42796181B8E720050DA25 /* guessmusic_button_continue@2x.png */; };
+		51B4279F181B8E720050DA25 /* guessmusic_button_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B42797181B8E720050DA25 /* guessmusic_button_stop.png */; };
+		51B427A0181B8E720050DA25 /* guessmusic_button_stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B42798181B8E720050DA25 /* guessmusic_button_stop@2x.png */; };
+		51B427A1181B8E720050DA25 /* guessmusic_view_question.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B42799181B8E720050DA25 /* guessmusic_view_question.png */; };
+		51B427A2181B8E720050DA25 /* guessmusic_view_question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B4279A181B8E720050DA25 /* guessmusic_view_question@2x.png */; };
 		DC33264A181B892600C013CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC332649181B892600C013CA /* Foundation.framework */; };
 		DC33264C181B892600C013CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC33264B181B892600C013CA /* CoreGraphics.framework */; };
 		DC33264E181B892600C013CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC33264D181B892600C013CA /* UIKit.framework */; };
@@ -38,10 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		51B42789181B8A0E0050DA25 /* guessmusic_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_background.png; sourceTree = "<group>"; };
-		51B4278A181B8A0E0050DA25 /* guessmusic_button_continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_button_continue.png; sourceTree = "<group>"; };
-		51B4278B181B8A0E0050DA25 /* guessmusic_button_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_button_stop.png; sourceTree = "<group>"; };
-		51B4278C181B8A0E0050DA25 /* guessmusic_view_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_view_question.png; sourceTree = "<group>"; };
+		51B42793181B8E720050DA25 /* guessmusic_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_background.png; sourceTree = "<group>"; };
+		51B42794181B8E720050DA25 /* guessmusic_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guessmusic_background@2x.png"; sourceTree = "<group>"; };
+		51B42795181B8E720050DA25 /* guessmusic_button_continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_button_continue.png; sourceTree = "<group>"; };
+		51B42796181B8E720050DA25 /* guessmusic_button_continue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guessmusic_button_continue@2x.png"; sourceTree = "<group>"; };
+		51B42797181B8E720050DA25 /* guessmusic_button_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_button_stop.png; sourceTree = "<group>"; };
+		51B42798181B8E720050DA25 /* guessmusic_button_stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guessmusic_button_stop@2x.png"; sourceTree = "<group>"; };
+		51B42799181B8E720050DA25 /* guessmusic_view_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_view_question.png; sourceTree = "<group>"; };
+		51B4279A181B8E720050DA25 /* guessmusic_view_question@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guessmusic_view_question@2x.png"; sourceTree = "<group>"; };
 		DC332646181B892600C013CA /* GuessMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC332649181B892600C013CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC33264B181B892600C013CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,20 +98,24 @@
 		51B42787181B89E20050DA25 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				51B42788181B89F70050DA25 /* UIImages */,
+				51B42792181B8E5B0050DA25 /* UI Images */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
 		};
-		51B42788181B89F70050DA25 /* UIImages */ = {
+		51B42792181B8E5B0050DA25 /* UI Images */ = {
 			isa = PBXGroup;
 			children = (
-				51B42789181B8A0E0050DA25 /* guessmusic_background.png */,
-				51B4278A181B8A0E0050DA25 /* guessmusic_button_continue.png */,
-				51B4278B181B8A0E0050DA25 /* guessmusic_button_stop.png */,
-				51B4278C181B8A0E0050DA25 /* guessmusic_view_question.png */,
+				51B42793181B8E720050DA25 /* guessmusic_background.png */,
+				51B42794181B8E720050DA25 /* guessmusic_background@2x.png */,
+				51B42795181B8E720050DA25 /* guessmusic_button_continue.png */,
+				51B42796181B8E720050DA25 /* guessmusic_button_continue@2x.png */,
+				51B42797181B8E720050DA25 /* guessmusic_button_stop.png */,
+				51B42798181B8E720050DA25 /* guessmusic_button_stop@2x.png */,
+				51B42799181B8E720050DA25 /* guessmusic_view_question.png */,
+				51B4279A181B8E720050DA25 /* guessmusic_view_question@2x.png */,
 			);
-			name = UIImages;
+			name = "UI Images";
 			sourceTree = "<group>";
 		};
 		DC33263D181B892600C013CA = {
@@ -257,13 +269,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B4278E181B8A0E0050DA25 /* guessmusic_button_continue.png in Resources */,
-				51B4278F181B8A0E0050DA25 /* guessmusic_button_stop.png in Resources */,
+				51B427A1181B8E720050DA25 /* guessmusic_view_question.png in Resources */,
 				DC332662181B892700C013CA /* Images.xcassets in Resources */,
 				DC332654181B892600C013CA /* InfoPlist.strings in Resources */,
 				DC33265D181B892600C013CA /* Main.storyboard in Resources */,
-				51B42790181B8A0E0050DA25 /* guessmusic_view_question.png in Resources */,
-				51B4278D181B8A0E0050DA25 /* guessmusic_background.png in Resources */,
+				51B427A0181B8E720050DA25 /* guessmusic_button_stop@2x.png in Resources */,
+				51B427A2181B8E720050DA25 /* guessmusic_view_question@2x.png in Resources */,
+				51B4279B181B8E720050DA25 /* guessmusic_background.png in Resources */,
+				51B4279D181B8E720050DA25 /* guessmusic_button_continue.png in Resources */,
+				51B4279F181B8E720050DA25 /* guessmusic_button_stop.png in Resources */,
+				51B4279C181B8E720050DA25 /* guessmusic_background@2x.png in Resources */,
+				51B4279E181B8E720050DA25 /* guessmusic_button_continue@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
