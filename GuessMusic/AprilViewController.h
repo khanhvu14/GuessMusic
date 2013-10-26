@@ -10,4 +10,7 @@
 
 @interface AprilViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIImageView *imageViewBG;
+@property (nonatomic, weak) IBOutlet UIImageView *imageViewLayOut;
+@property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
 @end
