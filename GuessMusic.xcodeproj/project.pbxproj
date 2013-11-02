@@ -29,6 +29,19 @@
 		DC33266B181B892700C013CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC33264D181B892600C013CA /* UIKit.framework */; };
 		DC332673181B892700C013CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC332671181B892700C013CA /* InfoPlist.strings */; };
 		DC332675181B892700C013CA /* GuessMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC332674181B892700C013CA /* GuessMusicTests.m */; };
+		DCCAABC81824A3CB00F2EF8A /* songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABC71824A3CB00F2EF8A /* songs.plist */; };
+		DCCAABCD1824A56500F2EF8A /* song_1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABCA1824A56500F2EF8A /* song_1-2.jpg */; };
+		DCCAABCE1824A56500F2EF8A /* song_1-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABCB1824A56500F2EF8A /* song_1-3.jpg */; };
+		DCCAABCF1824A56500F2EF8A /* song_1-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABCC1824A56500F2EF8A /* song_1-4.jpg */; };
+		DCCAABD11824A57800F2EF8A /* song_1-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABD01824A57800F2EF8A /* song_1-1.gif */; };
+		DCCAABD51824B48700F2EF8A /* song_2-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABD21824B48700F2EF8A /* song_2-2.jpg */; };
+		DCCAABD61824B48700F2EF8A /* song_2-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABD31824B48700F2EF8A /* song_2-3.jpg */; };
+		DCCAABD71824B48700F2EF8A /* song_2-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABD41824B48700F2EF8A /* song_2-4.jpg */; };
+		DCCAABD91824B49A00F2EF8A /* song_2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABD81824B49A00F2EF8A /* song_2-1.png */; };
+		DCCAABDB1824B71400F2EF8A /* AprilViewPoint.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCAABDA1824B71400F2EF8A /* AprilViewPoint.xib */; };
+		DCCAABE11824B98000F2EF8A /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCAABDE1824B98000F2EF8A /* MJPopupBackgroundView.m */; };
+		DCCAABE21824B98000F2EF8A /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCAABE01824B98000F2EF8A /* UIViewController+MJPopupViewController.m */; };
+		DCCAABEB1824BA5100F2EF8A /* AprilViewPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCAABEA1824BA5100F2EF8A /* AprilViewPointViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +82,22 @@
 		DC332670181B892700C013CA /* GuessMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessMusicTests-Info.plist"; sourceTree = "<group>"; };
 		DC332672181B892700C013CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC332674181B892700C013CA /* GuessMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessMusicTests.m; sourceTree = "<group>"; };
+		DCCAABC71824A3CB00F2EF8A /* songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = songs.plist; sourceTree = "<group>"; };
+		DCCAABCA1824A56500F2EF8A /* song_1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "song_1-2.jpg"; path = "../../../Desktop/song_1-2.jpg"; sourceTree = "<group>"; };
+		DCCAABCB1824A56500F2EF8A /* song_1-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "song_1-3.jpg"; path = "../../../Desktop/song_1-3.jpg"; sourceTree = "<group>"; };
+		DCCAABCC1824A56500F2EF8A /* song_1-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "song_1-4.jpg"; path = "../../../Desktop/song_1-4.jpg"; sourceTree = "<group>"; };
+		DCCAABD01824A57800F2EF8A /* song_1-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "song_1-1.gif"; path = "../../../Desktop/song_1-1.gif"; sourceTree = "<group>"; };
+		DCCAABD21824B48700F2EF8A /* song_2-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "song_2-2.jpg"; path = "../../../Desktop/song_2-2.jpg"; sourceTree = "<group>"; };
+		DCCAABD31824B48700F2EF8A /* song_2-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "song_2-3.jpg"; path = "../../../Desktop/song_2-3.jpg"; sourceTree = "<group>"; };
+		DCCAABD41824B48700F2EF8A /* song_2-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "song_2-4.jpg"; path = "../../../Desktop/song_2-4.jpg"; sourceTree = "<group>"; };
+		DCCAABD81824B49A00F2EF8A /* song_2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "song_2-1.png"; path = "../../../Desktop/song_2-1.png"; sourceTree = "<group>"; };
+		DCCAABDA1824B71400F2EF8A /* AprilViewPoint.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AprilViewPoint.xib; sourceTree = "<group>"; };
+		DCCAABDD1824B98000F2EF8A /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPopupBackgroundView.h; path = ../../MJPopupViewController/Source/MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		DCCAABDE1824B98000F2EF8A /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPopupBackgroundView.m; path = ../../MJPopupViewController/Source/MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		DCCAABDF1824B98000F2EF8A /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MJPopupViewController.h"; path = "../../MJPopupViewController/Source/UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		DCCAABE01824B98000F2EF8A /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MJPopupViewController.m"; path = "../../MJPopupViewController/Source/UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		DCCAABE91824BA5100F2EF8A /* AprilViewPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AprilViewPointViewController.h; sourceTree = "<group>"; };
+		DCCAABEA1824BA5100F2EF8A /* AprilViewPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AprilViewPointViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +127,8 @@
 		51B42787181B89E20050DA25 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DCCAABDC1824B96D00F2EF8A /* outLib */,
+				DCCAABC91824A53D00F2EF8A /* Songs */,
 				51B42792181B8E5B0050DA25 /* UI Images */,
 			);
 			name = Resource;
@@ -155,6 +186,9 @@
 				DC332658181B892600C013CA /* AprilAppDelegate.h */,
 				DC332659181B892600C013CA /* AprilAppDelegate.m */,
 				DC33265B181B892600C013CA /* Main.storyboard */,
+				DCCAABE91824BA5100F2EF8A /* AprilViewPointViewController.h */,
+				DCCAABEA1824BA5100F2EF8A /* AprilViewPointViewController.m */,
+				DCCAABDA1824B71400F2EF8A /* AprilViewPoint.xib */,
 				DC33265E181B892600C013CA /* AprilViewController.h */,
 				DC33265F181B892600C013CA /* AprilViewController.m */,
 				DC332661181B892700C013CA /* Images.xcassets */,
@@ -170,6 +204,7 @@
 				DC332652181B892600C013CA /* InfoPlist.strings */,
 				DC332655181B892600C013CA /* main.m */,
 				DC332657181B892600C013CA /* GuessMusic-Prefix.pch */,
+				DCCAABC71824A3CB00F2EF8A /* songs.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -190,6 +225,32 @@
 				DC332671181B892700C013CA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCCAABC91824A53D00F2EF8A /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				DCCAABD81824B49A00F2EF8A /* song_2-1.png */,
+				DCCAABD21824B48700F2EF8A /* song_2-2.jpg */,
+				DCCAABD31824B48700F2EF8A /* song_2-3.jpg */,
+				DCCAABD41824B48700F2EF8A /* song_2-4.jpg */,
+				DCCAABD01824A57800F2EF8A /* song_1-1.gif */,
+				DCCAABCA1824A56500F2EF8A /* song_1-2.jpg */,
+				DCCAABCB1824A56500F2EF8A /* song_1-3.jpg */,
+				DCCAABCC1824A56500F2EF8A /* song_1-4.jpg */,
+			);
+			name = Songs;
+			sourceTree = "<group>";
+		};
+		DCCAABDC1824B96D00F2EF8A /* outLib */ = {
+			isa = PBXGroup;
+			children = (
+				DCCAABDD1824B98000F2EF8A /* MJPopupBackgroundView.h */,
+				DCCAABDE1824B98000F2EF8A /* MJPopupBackgroundView.m */,
+				DCCAABDF1824B98000F2EF8A /* UIViewController+MJPopupViewController.h */,
+				DCCAABE01824B98000F2EF8A /* UIViewController+MJPopupViewController.m */,
+			);
+			name = outLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +301,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "April Coder";
 				TargetAttributes = {
+					DC332645181B892600C013CA = {
+						DevelopmentTeam = 86QSJ4497L;
+					};
 					DC332666181B892700C013CA = {
 						TestTargetID = DC332645181B892600C013CA;
 					};
@@ -272,13 +336,23 @@
 				51B427A1181B8E720050DA25 /* guessmusic_view_question.png in Resources */,
 				DC332662181B892700C013CA /* Images.xcassets in Resources */,
 				DC332654181B892600C013CA /* InfoPlist.strings in Resources */,
+				DCCAABD91824B49A00F2EF8A /* song_2-1.png in Resources */,
+				DCCAABCD1824A56500F2EF8A /* song_1-2.jpg in Resources */,
+				DCCAABC81824A3CB00F2EF8A /* songs.plist in Resources */,
+				DCCAABCF1824A56500F2EF8A /* song_1-4.jpg in Resources */,
 				DC33265D181B892600C013CA /* Main.storyboard in Resources */,
+				DCCAABD61824B48700F2EF8A /* song_2-3.jpg in Resources */,
+				DCCAABDB1824B71400F2EF8A /* AprilViewPoint.xib in Resources */,
 				51B427A0181B8E720050DA25 /* guessmusic_button_stop@2x.png in Resources */,
+				DCCAABCE1824A56500F2EF8A /* song_1-3.jpg in Resources */,
 				51B427A2181B8E720050DA25 /* guessmusic_view_question@2x.png in Resources */,
 				51B4279B181B8E720050DA25 /* guessmusic_background.png in Resources */,
+				DCCAABD71824B48700F2EF8A /* song_2-4.jpg in Resources */,
 				51B4279D181B8E720050DA25 /* guessmusic_button_continue.png in Resources */,
 				51B4279F181B8E720050DA25 /* guessmusic_button_stop.png in Resources */,
+				DCCAABD51824B48700F2EF8A /* song_2-2.jpg in Resources */,
 				51B4279C181B8E720050DA25 /* guessmusic_background@2x.png in Resources */,
+				DCCAABD11824A57800F2EF8A /* song_1-1.gif in Resources */,
 				51B4279E181B8E720050DA25 /* guessmusic_button_continue@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +372,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCAABE11824B98000F2EF8A /* MJPopupBackgroundView.m in Sources */,
+				DCCAABEB1824BA5100F2EF8A /* AprilViewPointViewController.m in Sources */,
+				DCCAABE21824B98000F2EF8A /* UIViewController+MJPopupViewController.m in Sources */,
 				DC332656181B892600C013CA /* main.m in Sources */,
 				DC332660181B892600C013CA /* AprilViewController.m in Sources */,
 				DC33265A181B892600C013CA /* AprilAppDelegate.m in Sources */,
@@ -427,9 +504,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuessMusic/GuessMusic-Prefix.pch";
 				INFOPLIST_FILE = "GuessMusic/GuessMusic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -440,9 +519,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuessMusic/GuessMusic-Prefix.pch";
 				INFOPLIST_FILE = "GuessMusic/GuessMusic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

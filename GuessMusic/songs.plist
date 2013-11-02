@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Demo1,song_1-1.gif,song_1-2.jpg,song_1-3.jpg,song_1-4.jpg,1000</string>
+	<string>Demo2,song_2-1.png,song_2-2.jpg,song_2-3.jpg,song_2-4.jpg,1500</string>
+</array>
+</plist>

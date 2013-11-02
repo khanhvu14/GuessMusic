@@ -15,7 +15,15 @@
 @property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
 
 @property (nonatomic, weak) IBOutlet UITextField *answerTextField;
-
+@property (nonatomic, weak) IBOutlet UIImageView *imageView1;
+@property (nonatomic, weak) IBOutlet UIImageView *imageView2;
+@property (nonatomic, weak) IBOutlet UIImageView *imageView3;
+@property (nonatomic, weak) IBOutlet UIImageView *imageView4;
+@property (nonatomic) int currentSong;
+@property (nonatomic, strong) NSMutableArray *arrSongs;
+@property (nonatomic, strong) NSString *currentAnswer;
+@property (nonatomic) int currentPoint;
+@property (nonatomic) int userPoint;
 
 - (IBAction)btnStopClick:(id)sender;
 - (IBAction)btnContinueClick:(id)sender;
